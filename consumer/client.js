@@ -19,7 +19,7 @@ const fetchProviderData = (submissionDate) => {
     .get(`${API_ENDPOINT}/surveys`)
     //.query(withDate)
     .then((res) => {
-      console.log('Request to provider completed %s', res.body.title);
+      console.log('Request to surveys API completed. Title: %s', res.body.title);
       //if (res.body.validDate.match(dateRegex)) {
         return {
           title: res.body.title

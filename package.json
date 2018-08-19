@@ -1,7 +1,7 @@
 {
-  "name": "pact-workshop-js",
+  "name": "microservices",
   "version": "1.0.0",
-  "description": "Example JS project for the Pact workshop",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
@@ -12,13 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DiUS/pact-workshop-js.git"
+    "url": "git+https://github.com/pattyy/Microservices"
   },
-  "bugs": {
-    "url": "https://github.com/DiUS/pact-workshop-js/issues"
-  },
-  "homepage": "https://github.com/DiUS/pact-workshop-js#readme",
-  "author": "Matt Fellows <m@onegeek.com.au>",
+  "homepage": "https://github.com/pattyy/Microservices",
+  "author": "Patricia Ortuno",
   "license": "Apache-2.0",
   "standard": {
     "parser": "babel-eslint",
